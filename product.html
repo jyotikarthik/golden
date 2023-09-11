@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Golden Food - Sweet Destination</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <style>
+
+            /* Initial styles for the navbar (transparent white background) */
+        .navbar {
+            background-color: rgba(255, 255, 255, 0.4) !important; /* Change opacity to 0.9 for transparent white */
+        }
+        
+        /* Styles for the navbar when scrolling down (transparent white) */
+        .navbar.scrolled {
+            background-color: rgba(255, 255, 255, 0.4) !important; /* Change opacity to 0.9 for transparent white on scroll */
+        }
+        
+        /* Styles for the navbar in mobile view (transparent white) */
+        @media (max-width: 991.98px) {
+            .navbar {
+                background-color: rgba(255, 255, 255, 0.4) !important; /* Change opacity to 0.9 for transparent white in mobile view */
+            }
+        }
+        @media (max-width: 767px) {
+        /* Set a maximum width for the images on mobile */
+        .product-item .img-fluid {
+            width: 500px !important;
+            height: auto;
+        }
+    }
+    .product-item {
+    margin-right: 2rem;
+    margin-left: 2rem;
+    }
+    /* Custom CSS to change the hamburger icon color to grey */
+    .navbar-toggler-icon {
+        background-color: rgb(176, 170, 170) !important;
+    }
+    
+    </style>
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+        <!-- Navbar Start -->
+        <nav class="navbar navbar-expand-lg navbar-dark font-light fixed-top py-lg-0 px-lg-5 wow fadeIn navbar-scroll" data-wow-delay="0.1s">
+            <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+                <img id="logo" src="img/Golden Food.png">
+            </a>
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav mx-auto p-4 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="product.html" class="nav-item nav-link active">Products</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+                
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+    <!-- Product Start -->
+    <div class="container-xxl bg-light my-6 py-6 pt-0" >
+        <div class="container">
+            
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <br>
+                <H6 style="font-size: xx-large;" class="display-6 mb-4">Explore The Tasty And Healthy Golden food Products</H6>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-item d-flex flex-column bg-white rounded overflow-hidden h-100">
+                        <div class="text-center p-4">
+                            
+                            <h3 class="mb-3">Gulab Jamun</h3>
+                            
+                        </div>
+                        <div class="position-relative mt-auto">
+                            <img class="img-fluid" src="img/Gulab Jamun lover.jpeg" alt="">
+                            <div class="product-overlay">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="product-item d-flex flex-column bg-white rounded overflow-hidden h-100">
+                        <div class="text-center p-4">
+                            
+                            <h3 class="mb-3">Angoori Jamun</h3>
+                            
+                        </div>
+                        <div class="position-relative mt-auto">
+                            <img class="img-fluid" src="img/Angoori-Gulab-Jamun.jpg" alt="">
+                            <div class="product-overlay">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="product-item d-flex flex-column bg-white rounded overflow-hidden h-100">
+                        <div class="text-center p-4">
+                            
+                            <h4 class="mb-3">Kesar Jamun</h4>
+                            
+                        </div>
+                        <div class="position-relative mt-auto">
+                            <img class="img-fluid" src="img/With Kesar gulab jamun.jpeg" alt="">
+                            <div class="product-overlay">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="product-item d-flex flex-column bg-white rounded overflow-hidden h-100">
+                        <div class="text-center p-4">
+                            
+                            <h3 class="mb-3">Kala Jamun</h3>
+                            
+                        </div>
+                        <div class="position-relative mt-auto">
+                            <img class="img-fluid" src="img/These Fried Milk Balls Are Sprinkled With Gold and Scented With Saffron.jpeg" alt="">
+                            <div class="product-overlay">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="product-item d-flex flex-column bg-white rounded overflow-hidden h-100">
+                        <div class="text-center p-4">
+                            
+                            <h3 class="mb-3">Lamba Jamun</h3>
+                            
+                        </div>
+                        <div class="position-relative mt-auto">
+                            <img class="img-fluid" src="img/lambajamun.jpeg" alt="">
+                            <div class="product-overlay">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="product-item d-flex flex-column bg-white rounded overflow-hidden h-100">
+                        <div class="text-center p-4">
+                            
+                            <h3 class="mb-3">Rasgulla</h3>
+                            
+                        </div>
+                        <div class="position-relative mt-auto">
+                            <img class="img-fluid" src="img/Rasgulla.jpeg" alt="">
+                            <div class="product-overlay">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="product-item d-flex flex-column bg-white rounded overflow-hidden h-100">
+                        <div class="text-center p-4">
+                            
+                            <h3 class="mb-3">Angoori Rasgulla</h3>
+                            
+                        </div>
+                        <div class="position-relative mt-auto">
+                            <img class="img-fluid" src="img/miniRasgulla.jpg" alt="">
+                            <div class="product-overlay">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="product-item d-flex flex-column bg-white rounded overflow-hidden h-100">
+                        <div class="text-center p-4">
+                            
+                            <h3 class="mb-3">Rasmalai Patties</h3>
+                            
+                        </div>
+                        <div class="position-relative mt-auto">
+                            <img class="img-fluid" src="img/Rasmalai Patty.jpg" alt="">
+                            <div class="product-overlay">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="product-item d-flex flex-column bg-white rounded overflow-hidden h-100">
+                        <div class="text-center p-4">
+                            
+                            <h3 class="mb-3">Cham Cham</h3>
+                            
+                        </div>
+                        <div class="position-relative mt-auto">
+                            <img class="img-fluid" src="img/Chamcham-1.jpg" alt="">
+                            <div class="product-overlay">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="product-item d-flex flex-column bg-white rounded overflow-hidden h-100">
+                        <div class="text-center p-4">
+                            
+                            <h3 class="mb-3">Rajbhog</h3>
+                            
+                        </div>
+                        <div class="position-relative mt-auto">
+                            <img class="img-fluid" src="img/Rajbhog.jpeg" alt="">
+                            <div class="product-overlay">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="product-item d-flex flex-column bg-white rounded overflow-hidden h-100">
+                        <div class="text-center p-4">
+                            
+                            <h3 class="mb-3">Kesar Rajbhog</h3>
+                            
+                        </div>
+                        <div class="position-relative mt-auto">
+                            <img class="img-fluid" src="img/rajbhog.jpg" alt="">
+                            <div class="product-overlay">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="product-item d-flex flex-column bg-white rounded overflow-hidden h-100">
+                        <div class="text-center p-4">
+                            
+                            <h3 class="mb-3">Bengali Mithai</h3>
+                            
+                        </div>
+                        <div class="position-relative mt-auto">
+                            <img class="img-fluid" src="img/bengali-mithai.jpeg" alt="">
+                            <div class="product-overlay">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="product-item d-flex flex-column bg-white rounded overflow-hidden h-100">
+                        <div class="text-center p-4">
+                            
+                            <h3 class="mb-3">Kesar Petha</h3>
+                            
+                        </div>
+                        <div class="position-relative mt-auto">
+                            <img class="img-fluid" src="img/Panchi Petha Kesar Angoori Petha Online.jpeg" alt="">
+                            <div class="product-overlay">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="product-item d-flex flex-column bg-white rounded overflow-hidden h-100">
+                        <div class="text-center p-4">
+                            
+                            <h3 class="mb-3">Goli Petha</h3>
+                            
+                        </div>
+                        <div class="position-relative mt-auto">
+                            <img class="img-fluid" src="img/Angoori Petha.jpeg" alt="">
+                            <div class="product-overlay">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="product-item d-flex flex-column bg-white rounded overflow-hidden h-100">
+                        <div class="text-center p-4">
+                            
+                            <h3 class="mb-3">Lamba Petha</h3>
+                            
+                        </div>
+                        <div class="position-relative mt-auto">
+                            <img class="img-fluid" src="img/Lamba Petha.jpg" alt="">
+                            <div class="product-overlay">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="product-item d-flex flex-column bg-white rounded overflow-hidden h-100">
+                        <div class="text-center p-4">
+                            
+                            <h3 class="mb-3">Soan Papdi</h3>
+                            
+                        </div>
+                        <div class="position-relative mt-auto">
+                            <img class="img-fluid" src="img/Soan papdi — BBC Good Food.jpeg" alt="">
+                            <div class="product-overlay">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Product End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-danger text-dark footer my-6 mb-0 py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Shop Address</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Golden food
+                        G-30
+                        RIICO Industrial Area
+                        Nokha
+                        Dist.Bikaner
+                        Rajasthan
+                        Pincode:-334803</p>
+                    
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Contact Us</h4>
+                   
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>Ashok purohit-9820408695</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>Deepak purohit - 9987195018</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>goldenfood1008@gmail.com</p>
+                    
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Future Updates</h4>
+                    <p>We are soon getting back with new flavourful and healthy products.</p>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Reach us on WhatsApp</h4>
+                    <div class="row g-6">
+                        <a href="https://api.whatsapp.com/send?phone=9987195018" class="btn btn-success rounded-pill py-3 px-5">Chat with us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <div class="container-fluid copyright text-light py-4 wow fadeIn" data-wow-delay="0.1s" style="background-color: #059c45;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a href="index.html">Golden Food</a>, All Right Reserved.
+                </div>
+            </div>
+        </div>
+    </div>    
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-success btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
